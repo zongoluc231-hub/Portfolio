@@ -91,3 +91,19 @@ footer {
   font-size: .9rem;
   font-family: Arial, sans-serif;
 }
+
+#salutation { margin-top: 12px; font-style: italic; }
+
+#haut {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: var(--soleil);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
